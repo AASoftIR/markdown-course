@@ -1,23 +1,8 @@
-<html>
-  <body>
-    Here is one mermaid diagram:
-    <pre class="mermaid">
-            graph TD
-            A[Client] --> B[Load Balancer]
-            B --> C[Server1]
-            B --> D[Server2]
-    </pre>
+```mermaid
+graph TD
+    A[Start] --> B[Process]
+    B --> C{Decision}
+    C -->|Yes| D[Result 1]
+    C -->|No| E[Result 2]
 
-    And here is another:
-    <pre class="mermaid">
-            graph TD
-            A[Client] -->|tcp_123| B
-            B(Load Balancer)
-            B -->|tcp_456| C[Server1]
-            B -->|tcp_456| D[Server2]
-    </pre>
-
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@11.5.0/dist/mermaid.min.js"></script>
-
-  </body>
-</html>
+```
