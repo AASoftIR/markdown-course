@@ -17,10 +17,7 @@
             B -->|tcp_456| D[Server2]
     </pre>
 
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-      mermaid.initialize({ startOnLoad: true });
-    </script>
+<script src=" https://cdn.jsdelivr.net/npm/mermaid@11.5.0/dist/mermaid.min.js "></script>
 
   </body>
 </html>
