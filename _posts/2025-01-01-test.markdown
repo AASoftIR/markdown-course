@@ -1,0 +1,10 @@
+---
+layout: post
+read_time: true
+show_date: true
+title: test test
+date: 2025-01-25 13:32:20 -0600
+description: Single neuron perceptron that classifies elements learning quite quickly.
+tags: [machine learning, coding, neural networks]
+author: Armando Maynez
+---
